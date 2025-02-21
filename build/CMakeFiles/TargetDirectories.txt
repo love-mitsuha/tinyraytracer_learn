@@ -1,0 +1,3 @@
+D:/tinyraytracer_learn/build/CMakeFiles/tinyraytracer.dir
+D:/tinyraytracer_learn/build/CMakeFiles/ALL_BUILD.dir
+D:/tinyraytracer_learn/build/CMakeFiles/ZERO_CHECK.dir

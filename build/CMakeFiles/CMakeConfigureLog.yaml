@@ -1,0 +1,637 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+      鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:32銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.42
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/tinyraytracer_learn/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+      鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:35銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.34
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/tinyraytracer_learn/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kkk4kh"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kkk4kh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kkk4kh'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13822.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:38銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kkk4kh\\cmTC_13822.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_13822.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kkk4kh\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_13822.dir\\Debug\\cmTC_13822.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_13822.dir\\Debug\\cmTC_13822.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_13822.dir\\Debug\\cmTC_13822.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13822.dir\\Debug\\\\" /Fd"cmTC_13822.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\CMAKE\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13822.dir\\Debug\\\\" /Fd"cmTC_13822.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\CMAKE\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kkk4kh\\Debug\\cmTC_13822.exe" /INCREMENTAL /ILK:"cmTC_13822.dir\\Debug\\cmTC_13822.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kkk4kh/Debug/cmTC_13822.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kkk4kh/Debug/cmTC_13822.lib" /MACHINE:X64  /machine:x64 cmTC_13822.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_13822.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kkk4kh\\Debug\\cmTC_13822.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_13822.dir\\Debug\\cmTC_13822.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_13822.dir\\Debug\\cmTC_13822.tlog\\cmTC_13822.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kkk4kh\\cmTC_13822.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.86
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/visual studio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/visual studio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34438.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-laz2bb"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-laz2bb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-laz2bb'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f1ab2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:41銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-laz2bb\\cmTC_f1ab2.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f1ab2.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-laz2bb\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f1ab2.dir\\Debug\\cmTC_f1ab2.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f1ab2.dir\\Debug\\cmTC_f1ab2.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f1ab2.dir\\Debug\\cmTC_f1ab2.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f1ab2.dir\\Debug\\\\" /Fd"cmTC_f1ab2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\CMAKE\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f1ab2.dir\\Debug\\\\" /Fd"cmTC_f1ab2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\CMAKE\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-laz2bb\\Debug\\cmTC_f1ab2.exe" /INCREMENTAL /ILK:"cmTC_f1ab2.dir\\Debug\\cmTC_f1ab2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-laz2bb/Debug/cmTC_f1ab2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-laz2bb/Debug/cmTC_f1ab2.lib" /MACHINE:X64  /machine:x64 cmTC_f1ab2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f1ab2.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-laz2bb\\Debug\\cmTC_f1ab2.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f1ab2.dir\\Debug\\cmTC_f1ab2.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f1ab2.dir\\Debug\\cmTC_f1ab2.tlog\\cmTC_f1ab2.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-laz2bb\\cmTC_f1ab2.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.04
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/visual studio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/visual studio/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34438.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:17 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-1ej3up"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-1ej3up"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-1ej3up'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d2490.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:44銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\cmTC_d2490.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d2490.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d2490.dir\\Debug\\cmTC_d2490.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d2490.dir\\Debug\\cmTC_d2490.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d2490.dir\\Debug\\cmTC_d2490.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d2490.dir\\Debug\\\\" /Fd"cmTC_d2490.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d2490.dir\\Debug\\\\" /Fd"cmTC_d2490.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\src.cxx"
+          src.cxx
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\Debug\\cmTC_d2490.exe" /INCREMENTAL /ILK:"cmTC_d2490.dir\\Debug\\cmTC_d2490.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-1ej3up/Debug/cmTC_d2490.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-1ej3up/Debug/cmTC_d2490.lib" /MACHINE:X64  /machine:x64 cmTC_d2490.dir\\Debug\\src.obj
+          cmTC_d2490.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\Debug\\cmTC_d2490.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_d2490.dir\\Debug\\cmTC_d2490.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d2490.dir\\Debug\\cmTC_d2490.tlog\\cmTC_d2490.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ej3up\\cmTC_d2490.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:18 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-w9iuog"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-w9iuog"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-w9iuog'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1242a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:47銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\cmTC_1242a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_1242a.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_1242a.dir\\Debug\\cmTC_1242a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_1242a.dir\\Debug\\cmTC_1242a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_1242a.dir\\Debug\\cmTC_1242a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1242a.dir\\Debug\\\\" /Fd"cmTC_1242a.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Wextra "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1242a.dir\\Debug\\\\" /Fd"cmTC_1242a.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Wextra "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\src.cxx"
+        cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\cmTC_1242a.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\cmTC_1242a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\cmTC_1242a.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wextra鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9iuog\\cmTC_1242a.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.80
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:19 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kp1w0a"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kp1w0a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kp1w0a'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bf099.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:48銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\cmTC_bf099.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bf099.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bf099.dir\\Debug\\cmTC_bf099.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_bf099.dir\\Debug\\cmTC_bf099.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bf099.dir\\Debug\\cmTC_bf099.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf099.dir\\Debug\\\\" /Fd"cmTC_bf099.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -pedantic "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf099.dir\\Debug\\\\" /Fd"cmTC_bf099.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -pedantic "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\src.cxx"
+        cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?pedantic鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\cmTC_bf099.vcxproj]
+          src.cxx
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\Debug\\cmTC_bf099.exe" /INCREMENTAL /ILK:"cmTC_bf099.dir\\Debug\\cmTC_bf099.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kp1w0a/Debug/cmTC_bf099.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-kp1w0a/Debug/cmTC_bf099.lib" /MACHINE:X64  /machine:x64 cmTC_bf099.dir\\Debug\\src.obj
+          cmTC_bf099.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\Debug\\cmTC_bf099.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_bf099.dir\\Debug\\cmTC_bf099.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bf099.dir\\Debug\\cmTC_bf099.tlog\\cmTC_bf099.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\cmTC_bf099.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+        
+        鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\cmTC_bf099.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?pedantic鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp1w0a\\cmTC_bf099.vcxproj]
+        
+            1 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-e0s8v5"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-e0s8v5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-e0s8v5'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68537.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:51銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\cmTC_68537.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_68537.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_68537.dir\\Debug\\cmTC_68537.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_68537.dir\\Debug\\cmTC_68537.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_68537.dir\\Debug\\cmTC_68537.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68537.dir\\Debug\\\\" /Fd"cmTC_68537.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -std=c++11 "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68537.dir\\Debug\\\\" /Fd"cmTC_68537.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -std=c++11 "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\src.cxx"
+        cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?std=c++11鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\cmTC_68537.vcxproj]
+          src.cxx
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\Debug\\cmTC_68537.exe" /INCREMENTAL /ILK:"cmTC_68537.dir\\Debug\\cmTC_68537.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-e0s8v5/Debug/cmTC_68537.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-e0s8v5/Debug/cmTC_68537.lib" /MACHINE:X64  /machine:x64 cmTC_68537.dir\\Debug\\src.obj
+          cmTC_68537.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\Debug\\cmTC_68537.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_68537.dir\\Debug\\cmTC_68537.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_68537.dir\\Debug\\cmTC_68537.tlog\\cmTC_68537.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\cmTC_68537.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+        
+        鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\cmTC_68537.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?std=c++11鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0s8v5\\cmTC_68537.vcxproj]
+        
+            1 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.96
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:21 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-385gj0"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-385gj0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-385gj0'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_56692.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:54銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\cmTC_56692.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_56692.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_56692.dir\\Debug\\cmTC_56692.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_56692.dir\\Debug\\cmTC_56692.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_56692.dir\\Debug\\cmTC_56692.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56692.dir\\Debug\\\\" /Fd"cmTC_56692.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -O3 "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56692.dir\\Debug\\\\" /Fd"cmTC_56692.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -O3 "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\src.cxx"
+        cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?O3鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\cmTC_56692.vcxproj]
+          src.cxx
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\Debug\\cmTC_56692.exe" /INCREMENTAL /ILK:"cmTC_56692.dir\\Debug\\cmTC_56692.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-385gj0/Debug/cmTC_56692.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-385gj0/Debug/cmTC_56692.lib" /MACHINE:X64  /machine:x64 cmTC_56692.dir\\Debug\\src.obj
+          cmTC_56692.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\Debug\\cmTC_56692.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_56692.dir\\Debug\\cmTC_56692.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_56692.dir\\Debug\\cmTC_56692.tlog\\cmTC_56692.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\cmTC_56692.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+        
+        鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\cmTC_56692.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?O3鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-385gj0\\cmTC_56692.vcxproj]
+        
+            1 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.00
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMAKE/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:9 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:22 (enable_cxx_compiler_flag_if_supported)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-skxo83"
+      binary: "D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-skxo83"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -Wall"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-skxo83'
+        
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2b44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2025/2/21 14:46:56銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\cmTC_f2b44.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f2b44.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f2b44.dir\\Debug\\cmTC_f2b44.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f2b44.dir\\Debug\\cmTC_f2b44.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f2b44.dir\\Debug\\cmTC_f2b44.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2b44.dir\\Debug\\\\" /Fd"cmTC_f2b44.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -fopenmp "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34438 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f2b44.dir\\Debug\\\\" /Fd"cmTC_f2b44.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -fopenmp "D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\src.cxx"
+        cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?fopenmp鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\cmTC_f2b44.vcxproj]
+          src.cxx
+        Link:
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\Debug\\cmTC_f2b44.exe" /INCREMENTAL /ILK:"cmTC_f2b44.dir\\Debug\\cmTC_f2b44.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-skxo83/Debug/cmTC_f2b44.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tinyraytracer_learn/build/CMakeFiles/CMakeScratch/TryCompile-skxo83/Debug/cmTC_f2b44.lib" /MACHINE:X64  /machine:x64 cmTC_f2b44.dir\\Debug\\src.obj
+          cmTC_f2b44.vcxproj -> D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\Debug\\cmTC_f2b44.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f2b44.dir\\Debug\\cmTC_f2b44.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f2b44.dir\\Debug\\cmTC_f2b44.tlog\\cmTC_f2b44.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\cmTC_f2b44.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+        
+        鈥淒:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\cmTC_f2b44.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? warning D9002: 蹇界暐鏈煡閫夐」鈥?fopenmp鈥?[D:\\tinyraytracer_learn\\build\\CMakeFiles\\CMakeScratch\\TryCompile-skxo83\\cmTC_f2b44.vcxproj]
+        
+            1 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.92
+        
+      exitCode: 0
+...
