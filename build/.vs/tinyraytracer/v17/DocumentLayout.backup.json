@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tinyraytracer_learn\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\tinyraytracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Material.h",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Material.h",
+              "RelativeDocumentMoniker": "..\\lib\\Material.h",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Material.h",
+              "RelativeToolTip": "..\\lib\\Material.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-21T12:19:57.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Material.cpp",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Material.cpp",
+              "RelativeDocumentMoniker": "..\\lib\\Material.cpp",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Material.cpp",
+              "RelativeToolTip": "..\\lib\\Material.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T11:45:23.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Object.cpp",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Object.cpp",
+              "RelativeDocumentMoniker": "..\\lib\\Object.cpp",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Object.cpp",
+              "RelativeToolTip": "..\\lib\\Object.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T09:38:35.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Object.h",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Object.h",
+              "RelativeDocumentMoniker": "..\\lib\\Object.h",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Object.h",
+              "RelativeToolTip": "..\\lib\\Object.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-21T09:38:33.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tinyraytracer.cpp",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\tinyraytracer.cpp",
+              "RelativeDocumentMoniker": "..\\tinyraytracer.cpp",
+              "ToolTip": "D:\\tinyraytracer_learn\\tinyraytracer.cpp",
+              "RelativeToolTip": "..\\tinyraytracer.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-21T06:50:36.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

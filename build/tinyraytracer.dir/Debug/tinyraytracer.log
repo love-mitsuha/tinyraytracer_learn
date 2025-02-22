@@ -1,0 +1,502 @@
+﻿  tinyraytracer.cpp
+D:\tinyraytracer_learn\lib\Material.h(7,3): warning C5267: 已弃用“Material”的隐式 复制构造函数 定义，因为它具有用户提供的 析构函数
+  (编译源文件“../tinyraytracer.cpp”)
+      D:\tinyraytracer_learn\lib\Object.h(9,79):
+      此处首先需要“Material”的隐式 复制构造函数
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(272,8): warning C4820: "<unnamed-tag>": 数据成员 "<unnamed-tag>::buf_used" 后添加了 "4" 字节填充
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(286,18): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(363,37): warning C4365: “初始化”: 从“int”转换到“stbiw_uint32”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(438,30): warning C4365: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(570,59): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(574,55): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(584,57): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(679,38): warning C4365: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(680,30): warning C4365: “=”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(767,50): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(776,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(864,11): warning C4365: “return”: 从“int”转换到“unsigned int”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(869,22): warning C4365: “初始化”: 从“int”转换到“stbiw_uint32”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(924,13): warning C4365: “初始化”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(930,19): warning C4365: “初始化”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(943,36): warning C4365: “=”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(948,22): warning C4365: “初始化”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(995,46): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1019,4): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1103,35): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1110,38): warning C4365: “=”: 从“unsigned char”转换到“signed char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1114,38): warning C4365: “=”: 从“unsigned char”转换到“signed char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1115,38): warning C4365: “=”: 从“unsigned char”转换到“signed char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1144,29): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1145,34): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1173,7): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1181,28): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1200,4): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1224,19): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1258,23): warning C4365: “初始化”: 从“int”转换到“unsigned char”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\stb_image_write.h(1325,18): warning C4365: “=”: 从“int”转换到“unsigned short”，有符号/无符号不匹配
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\Material.h(7,3): warning C5267: 已弃用“Material”的隐式 赋值运算符 定义，因为它具有用户提供的 析构函数
+  (编译源文件“../tinyraytracer.cpp”)
+      D:\tinyraytracer_learn\tinyraytracer.cpp(27,22):
+      此处首先需要“Material”的隐式 赋值运算符
+  
+D:\tinyraytracer_learn\tinyraytracer.cpp(38,11): warning C4189: “intersect_dist”: 局部变量已初始化但不引用
+D:\tinyraytracer_learn\tinyraytracer.cpp(50,29): warning C4305: “初始化”: 从“double”到“float”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(52,26): warning C4388: “<”: 有符号/无符号不匹配
+D:\tinyraytracer_learn\tinyraytracer.cpp(54,30): warning C4388: “<”: 有符号/无符号不匹配
+D:\tinyraytracer_learn\tinyraytracer.cpp(59,29): warning C5219: 从“size_t”隐式转换到“double”，可能会丢失数据
+D:\tinyraytracer_learn\tinyraytracer.cpp(59,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\tinyraytracer_learn\tinyraytracer.cpp(60,30): warning C5219: 从“size_t”隐式转换到“double”，可能会丢失数据
+D:\tinyraytracer_learn\tinyraytracer.cpp(60,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\tinyraytracer_learn\tinyraytracer.cpp(73,26): warning C4388: “<”: 有符号/无符号不匹配
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,41): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,41): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,41): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,41): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,41): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,36): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,36): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,36): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,36): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,36): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,31): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,31): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,31): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,31): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(84,31): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,41): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,41): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,41): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,41): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,41): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,36): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,36): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,36): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,36): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,36): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,31): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,31): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,31): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,31): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(85,31): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,37): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,37): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,37): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,37): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,37): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,31): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,31): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,31): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,31): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,31): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,25): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,25): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,25): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,25): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(88,25): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,39): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,39): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,39): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,39): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,39): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,33): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,33): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,33): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,33): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,33): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,27): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,27): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,27): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,27): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(89,27): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,39): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,39): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,39): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,39): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,39): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,33): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,33): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,33): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,33): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,33): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,27): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,27): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,27): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,27): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(90,27): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,40): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,40): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,40): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,40): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,40): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,34): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,34): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,34): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,34): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,34): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,28): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,28): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,28): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,28): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(93,28): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,41): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,41): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,41): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,41): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,41): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,35): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,35): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,35): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,35): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,35): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,29): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,29): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,29): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(94,29): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,41): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,41): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,41): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,41): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,41): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,35): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,35): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,35): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,35): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,35): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,29): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,29): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,29): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(95,29): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,43): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,43): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,43): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,43): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,43): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,38): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,38): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,38): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,38): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,38): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,33): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,33): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,33): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,33): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(98,33): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,44): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,44): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,44): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,44): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,44): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,39): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,39): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,39): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,39): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,39): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,34): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,34): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,34): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,34): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(99,34): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,35): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,35): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,35): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,35): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,35): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,30): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,30): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,30): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,30): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,30): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,25): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,25): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,25): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,25): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(102,25): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,31): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,31): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,31): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,31): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,31): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,25): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,25): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,25): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,25): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(103,25): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,41): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,41): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,41): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,41): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,41): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,35): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,35): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,35): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,35): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,35): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,29): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,29): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,29): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,29): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(104,29): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,41): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,41): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,41): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,41): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,41): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,36): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,36): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,36): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,36): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,36): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,31): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,31): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,31): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,31): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(107,31): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,40): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,40): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,40): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,40): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,40): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,35): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,35): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,35): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,35): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(108,35): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,44): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,44): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,44): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,44): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,44): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,39): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,39): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,39): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,39): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,39): warning C4305:         ]
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,34): warning C4305: “参数”: 从“double”到“T”截断
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,34): warning C4305:         with
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,34): warning C4305:         [
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,34): warning C4305:             T=float
+D:\tinyraytracer_learn\tinyraytracer.cpp(109,34): warning C4305:         ]
+D:\tinyraytracer_learn\lib\Object.h(10,3): warning C5267: 已弃用“Sphere”的隐式 复制构造函数 定义，因为它具有用户提供的 析构函数
+  (编译源文件“../tinyraytracer.cpp”)
+      D:\visual studio\VC\Tools\MSVC\14.42.34433\include\xutility(406,61):
+      此处首先需要“Sphere”的隐式 复制构造函数
+      D:\visual studio\VC\Tools\MSVC\14.42.34433\include\xutility(406,1):
+      模板实例化上下文(最早的实例化上下文)为
+          D:\tinyraytracer_learn\tinyraytracer.cpp(19,28):
+          查看对正在编译的 类 模板 实例化“std::vector<Sphere,std::allocator<Sphere>>”的引用
+          D:\visual studio\VC\Tools\MSVC\14.42.34433\include\vector(866,23):
+          在编译 类 模板 成员函数“void std::vector<Sphere,std::allocator<Sphere>>::push_back(const _Ty &)”时
+          with
+          [
+              _Ty=Sphere
+          ]
+              D:\tinyraytracer_learn\tinyraytracer.cpp(120,22):
+              请参阅 "main" 中对 "std::vector<Sphere,std::allocator<Sphere>>::push_back" 的第一个引用
+          D:\visual studio\VC\Tools\MSVC\14.42.34433\include\vector(867,9):
+          查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const _Ty&>(const _Ty &)”的引用
+          with
+          [
+              _Ty=Sphere
+          ]
+          D:\visual studio\VC\Tools\MSVC\14.42.34433\include\vector(776,20):
+          查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<const _Ty&>(const _Ty &)”的引用
+          with
+          [
+              _Ty=Sphere
+          ]
+          D:\visual studio\VC\Tools\MSVC\14.42.34433\include\vector(791,18):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<Sphere,const _Ty&>(_Ty &,const _Ty &) noexcept”的引用
+          with
+          [
+              _Ty=Sphere
+          ]
+  
+D:\tinyraytracer_learn\lib\Object.h(7,2): warning C4514: “Sphere::Sphere”: 未引用的内联函数已移除
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\lib\Object.h(8,2): warning C4514: “Sphere::Sphere”: 未引用的内联函数已移除
+  (编译源文件“../tinyraytracer.cpp”)
+  
+D:\tinyraytracer_learn\tinyraytracer.cpp(27,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\tinyraytracer.cpp(27,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(19) : 注意: 在此行上通过对比检查索引 "" 范围
+D:\tinyraytracer_learn\tinyraytracer.cpp(27,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(27) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\tinyraytracer.cpp(22,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\tinyraytracer.cpp(22,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(19) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\tinyraytracer.cpp(22,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(22) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\tinyraytracer.cpp(62,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\tinyraytracer.cpp(62,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(54) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\tinyraytracer.cpp(62,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(62) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1173,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1173,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1146) : 注意: 在此行上通过对比检查索引 "j" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1173,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1173) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1167,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1167,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1148) : 注意: 在此行上通过对比检查索引 "force_filter" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1167,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1167) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1159,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1159,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1158) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1159,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1159) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1154,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1154,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1148) : 注意: 在此行上通过对比检查索引 "force_filter" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1154,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1154) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1150,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1150,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1148) : 注意: 在此行上通过对比检查索引 "force_filter" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1150,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1150) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\tinyraytracer.cpp(75,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\tinyraytracer.cpp(75,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(74) : 注意: 在此行上通过对比检查索引 "j" 范围
+D:\tinyraytracer_learn\tinyraytracer.cpp(75,1): warning C5045: D:\tinyraytracer_learn\tinyraytracer.cpp(75) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(574,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(574,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(573) : 注意: 在此行上通过对比检查索引 "k" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(574,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(574) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(570,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(570,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(563) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(570,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(570) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(782,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(782,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(763) : 注意: 在此行上通过对比检查索引 "x" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(782,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(782) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(597,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(597,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(596) : 注意: 在此行上通过对比检查索引 "len" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(597,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(597) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(781,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(781,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(763) : 注意: 在此行上通过对比检查索引 "x" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(781,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(781) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(584,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(584,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(583) : 注意: 在此行上通过对比检查索引 "len" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(584,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(584) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(487,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(487,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(480) : 注意: 在此行上通过对比检查索引 "x" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(487,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(487) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(995,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(995,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(987) : 注意: 在此行上通过对比检查索引 "j" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(995,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(995) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(981,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(981,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(980) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(981,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(981) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(974,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(974,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(973) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(974,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(974) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(944,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(944,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(922) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(944,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(945) : 注意: 此行上的源内存负载
+D:\tinyraytracer_learn\lib\stb_image_write.h(939,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(939,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(922) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(939,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(939) : 注意: 此行上的源内存负载
+D:\tinyraytracer_learn\lib\stb_image_write.h(930,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(930,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(928) : 注意: 在此行上通过对比检查索引 "j" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(930,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(930) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(961,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(961,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(961) : 注意: 在此行上通过对比检查索引 "" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(961,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(961) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(948,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(948,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(946) : 注意: 在此行上通过对比检查索引 "j" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(948,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(948) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1487,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1487,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1483) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1487,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1487) : 注意: 此行上的源内存负载
+D:\tinyraytracer_learn\lib\stb_image_write.h(1124,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1124,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1124) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1124,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1124) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1122,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1122,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1122) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1122,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1122) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1113,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1113,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1108) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1113,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1113) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(752,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(752,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(749) : 注意: 在此行上通过对比检查索引 "x" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(752,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(752) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(740,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(740,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(737) : 注意: 在此行上通过对比检查索引 "x" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(740,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(740) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(471,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(471,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(469) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(471,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(471) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1068,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1068,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1067) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1068,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1068) : 注意: 此行上的源内存负载
+D:\tinyraytracer_learn\lib\stb_image_write.h(1087,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1087,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1087) : 注意: 在此行上通过对比检查索引 "pb" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1087,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1087) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(647,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(647,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(644) : 注意: 在此行上通过对比检查索引 "maxcomp" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(647,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(647) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1086,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1086,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1086) : 注意: 在此行上通过对比检查索引 "pa" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1086,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1086) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1259,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1259,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1257) : 注意: 在此行上通过对比检查索引 "bitCnt" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1259,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1259) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1389,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1389,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1374) : 注意: 在此行上通过对比检查索引 "i" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1389,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1389) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1340,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1340,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1339) : 注意: 在此行上通过对比检查索引 "dataOff" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1340,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1340) : 注意: 此行上的源调用
+D:\tinyraytracer_learn\lib\stb_image_write.h(1336,1): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解 
+D:\tinyraytracer_learn\lib\stb_image_write.h(1336,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1335) : 注意: 在此行上通过对比检查索引 "dataOff" 范围
+D:\tinyraytracer_learn\lib\stb_image_write.h(1336,1): warning C5045: D:\tinyraytracer_learn\lib\stb_image_write.h(1336) : 注意: 此行上的源调用
+  tinyraytracer.vcxproj -> D:\tinyraytracer_learn\build\Debug\tinyraytracer.exe

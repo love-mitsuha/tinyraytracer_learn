@@ -1,0 +1,10 @@
+^D:\TINYRAYTRACER_LEARN\BUILD\CMAKEFILES\CB0304B604D63DF9173C63BC28635E58\GENERATE.STAMP.RULE
+setlocal
+D:\CMAKE\bin\cmake.exe -SD:/tinyraytracer_learn -BD:/tinyraytracer_learn/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/tinyraytracer_learn/build/tinyraytracer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

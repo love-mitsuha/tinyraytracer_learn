@@ -4,11 +4,12 @@
     <ClCompile Include="D:\tinyraytracer_learn\tinyraytracer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="D:\tinyraytracer_learn\geometry.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="..\lib\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\tinyraytracer_learn\CMakeLists.txt" />
@@ -20,5 +21,16 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{03884479-D73A-3F59-961F-77DD2E601103}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
