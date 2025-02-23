@@ -1,6 +1,6 @@
 #include "Object.h"
 //返回是否相交同时修改最近的交点距离
-bool Sphere::ray_intersect(const Vec3f& origin, const Vec3f& direction, float& distance)
+bool Sphere::ray_intersect(const Vec3f& origin, const Vec3f& direction, float &distance)
 {
 	Vec3f link = center - origin;
 	float tca = link * direction;
@@ -14,10 +14,19 @@ bool Sphere::ray_intersect(const Vec3f& origin, const Vec3f& direction, float& d
 	return true;
 }
 
-
-
-
-
-
-
-
+bool Plane::ray_intersect(const Vec3f& origin, const Vec3f& direction, float &distance)
+{
+	if (fabs(direction.y) < 1e-3) return false;//排除平行光线
+	float d = (center.y - origin.y) / direction.y;
+	if (d < 0) return false;//排除背面交点
+	Vec3f hit = origin + direction * d;
+	//检查交点是否在平面上
+	bool in_x = hit.x <= center.x + width / 2 && hit.x >= center.x - width / 2;
+	bool in_z = hit.z >= center.z - height / 2 && hit.z <= center.z + height / 2;
+	if (in_x && in_z)
+	{
+		distance = d;
+		return true;
+	}
+	return false;
+}
