@@ -2,16 +2,6 @@
 #include "geometry.h"
 #include "Material.h"
 
-
-
-
-
-
-
-
-
-
-
 class Sphere
 {
 public:

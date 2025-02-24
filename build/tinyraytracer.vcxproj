@@ -152,6 +152,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <AdditionalIncludeDirectories>D:\tinyraytracer_learn\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
@@ -329,8 +330,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\lib\Background.cpp" />
+    <ClCompile Include="..\lib\Camera.cpp" />
     <ClCompile Include="..\lib\Light.cpp" />
     <ClCompile Include="..\lib\Material.cpp" />
+    <ClCompile Include="..\lib\model.cpp" />
     <ClCompile Include="..\lib\Object.cpp" />
     <ClCompile Include="..\lib\Physics.cpp" />
     <ClCompile Include="D:\tinyraytracer_learn\tinyraytracer.cpp" />
@@ -344,9 +348,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\lib\Background.h" />
+    <ClInclude Include="..\lib\Camera.h" />
     <ClInclude Include="..\lib\geometry.h" />
     <ClInclude Include="..\lib\Light.h" />
     <ClInclude Include="..\lib\Material.h" />
+    <ClInclude Include="..\lib\model.h" />
     <ClInclude Include="..\lib\Object.h" />
     <ClInclude Include="..\lib\Physics.h" />
   </ItemGroup>
