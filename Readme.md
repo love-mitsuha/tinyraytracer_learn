@@ -1,3 +1,3 @@
 A simple raytracer:)
 
-![Demo GIF](./output.gif)
+![Demo GIF](output.gif)
