@@ -1,5 +1,16 @@
 #include "Camera.h"
 
+Camera::Camera(const Vec3f& target) :target(target)
+{
+	sight_distance = fabsf((target - position).norm());
+	set_direction();
+	set_position();
+}
+
+Camera::~Camera()
+{
+}
+
 void Camera::set_position()
 {
 	position.x = sight_distance * cosf(phi) * sinf(theta) + target.x;

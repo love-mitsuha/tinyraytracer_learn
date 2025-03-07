@@ -337,6 +337,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\lib\model.cpp" />
     <ClCompile Include="..\lib\Object.cpp" />
     <ClCompile Include="..\lib\Physics.cpp" />
+    <ClCompile Include="..\lib\raytracing.cpp" />
     <ClCompile Include="D:\tinyraytracer_learn\tinyraytracer.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -356,6 +357,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\lib\model.h" />
     <ClInclude Include="..\lib\Object.h" />
     <ClInclude Include="..\lib\Physics.h" />
+    <ClInclude Include="..\lib\raytracing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

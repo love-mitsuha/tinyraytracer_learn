@@ -5,9 +5,8 @@
 class Background
 {
 public:
-	Background(){}
 	Background(char* filename);
-	~Background(){}
+	~Background();
 
 	unsigned char* data;
 	char* filename;

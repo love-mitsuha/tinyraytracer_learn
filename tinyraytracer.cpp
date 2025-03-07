@@ -15,6 +15,7 @@
 #include "Background.h"
 #include "model.h"
 #include "Camera.h"
+#include "raytracing.h"
 
 Material      ivory(Vec3f(0.4, 0.4, 0.3), Vec4f(0.6, 0.3, 0.1, 0.0), 50., 1.0);
 Material      glass(Vec3f(0.6, 0.7, 0.8), Vec4f(0.0, 0.5, 0.1, 0.8), 125., 1.5);
@@ -56,40 +57,18 @@ char* modelname = "D:\\tinyraytracer_learn\\duck.obj";
 char* BGname = "D:\\tinyraytracer_learn\\envmap.jpg";
 
 //检测是否碰撞并且修改参数
-bool scene_intersect(const Vec3f& origin, const Vec3f& direction, std::vector<Sphere>& spheres,Model &model,
+bool scene_intersect(const Vec3f& origin, const Vec3f& direction, std::vector<std::unique_ptr<Object>>& objects,Model &model,
     Vec3f& hit, Vec3f& normal, Material& material)
 {
     float min_distance = std::numeric_limits<float>::max();
-    for (size_t i = 0; i < spheres.size(); i++)
-    {
-        float dist;
-        if (spheres[i].ray_intersect(origin, direction, dist) && dist < min_distance)//碰撞并且小于最短距离
-        {
-            min_distance = dist;
-            hit = origin + direction * dist;//计算碰撞点
-            normal = (hit - spheres[i].center).normalize();//碰撞点法线
-            material = spheres[i].material;
-        }
-    }
-    
-    Plane plane(Vec3f(0, -4, -20), 20, 20, chrome);
-    float plane_dist;
-    if (plane.ray_intersect(origin, direction, plane_dist) && plane_dist < min_distance)
-    {
-        min_distance = plane_dist;
-        normal = Vec3f(0., 1., 0.);
-        hit = origin + direction * plane_dist;
-        material = (int(0.5 * hit.x + 1000) + int(0.5 * hit.z)) & 1 ? chrome : mirror;
-    }
+    caculate_objects(objects, min_distance, origin, direction, hit, normal, material);
     
     float model_dist;
-    
     if (model.bbox_intersect(origin, direction))
     {
         //std::cerr << model.bbox_intersect(origin, direction);
         for (size_t i = 0; i < model.nfaces(); i++)
         {
-            float model_dist;
             if (model.ray_triangle_intersect(i, origin, direction, model_dist) && model_dist < min_distance)
             {
                 min_distance = model_dist;
@@ -103,13 +82,13 @@ bool scene_intersect(const Vec3f& origin, const Vec3f& direction, std::vector<Sp
 }
 
 //投射光线并返回颜色
-Vec3f cast_ray(const Vec3f& origin, const Vec3f& direction, std::vector<Sphere>& spheres, Model& model, 
+Vec3f cast_ray(const Vec3f& origin, const Vec3f& direction, std::vector<std::unique_ptr<Object>>& spheres, Model& model,
     std::vector<Light>& lights,Background& background, size_t depth = 0)
 {
     Vec3f hit, normal;//碰撞点 法线
     Material material;
     float intersect_dist = 0;
-    if (depth > 4 || !scene_intersect(origin, direction, spheres,model, hit, normal, material))//递归深度超过4或没有碰撞则视为背景颜色
+    if (depth > 4 || !scene_intersect(origin, direction, spheres, model, hit, normal, material))//递归深度超过4或没有碰撞则视为背景颜色
     {
         float phi = asinf(direction.y);
         float theta = atan2f(direction.x, -direction.z);//照片360° 相机指向左侧1/4处
@@ -148,11 +127,10 @@ Vec3f cast_ray(const Vec3f& origin, const Vec3f& direction, std::vector<Sphere>&
 }
 
 
-void render(int width, int height, Camera& camera, std::vector<Sphere>& spheres, Model& model, 
+void render(int width, int height, Camera& camera, std::vector<std::unique_ptr<Object>>& spheres, Model& model,
     std::vector<Light>& lights, std::vector<Vec3f>& framebuffer,Background& background)
 {
-    camera.set_position();
-    camera.set_direction();
+
     #pragma omp parallel for
     for (size_t j = 0; j < height; j++)
     {
@@ -168,7 +146,6 @@ void render(int width, int height, Camera& camera, std::vector<Sphere>& spheres,
             framebuffer[i + j * width] = cast_ray(camera.position, direction, spheres, model, lights, background, 0);
         }
     }
-
 }
 
 void image_write_ppm(int width, int height, int idx, std::vector<Vec3f>& framebuffer)
@@ -192,22 +169,26 @@ void image_write_ppm(int width, int height, int idx, std::vector<Vec3f>& framebu
 int main() 
 {
     Camera camera(Vec3f(0., 0., -20.));
-
     Model duck(modelname);
     Background background(BGname); 
 
     std::vector<Vec3f> framebuffer(width * height);
-    std::vector<Sphere> spheres;
+    std::vector<std::unique_ptr<Object>> objects;
     std::vector<Light> lights;
+
+    Plane plane1(Vec3f(0, -4, -20), 20, 20, chrome, mirror);
+    Plane plane2(Vec3f(0, 4, -20), 20, 20, chrome, mirror);
+    objects.push_back(std::make_unique<Plane>(plane1));
+    objects.push_back(std::make_unique<Plane>(plane2));
 
     Sphere sphere1(Vec3f(-3, 0, -16), 2, gold);
     Sphere sphere2(Vec3f(-1.0, -1.5, -12), 2, glass);
     Sphere sphere3(Vec3f(1.5, -0.5, -18), 3, silver);
     Sphere sphere4(Vec3f(7, 5, -18), 4, mirror);
-    spheres.push_back(sphere1);
-    spheres.push_back(sphere2);
-    spheres.push_back(sphere3);
-    spheres.push_back(sphere4);
+    objects.push_back(std::make_unique<Sphere>(sphere1));
+    objects.push_back(std::make_unique<Sphere>(sphere2));
+    objects.push_back(std::make_unique<Sphere>(sphere3));
+    objects.push_back(std::make_unique<Sphere>(sphere4));
 
     Light light1 = Light(Vec3f(-20, 20, 20), 1.5);
     Light light2 = Light(Vec3f(30, 50, -25), 1.8);
@@ -216,12 +197,15 @@ int main()
     lights.push_back(light2);
     lights.push_back(light3);
 
-    for (size_t frameNum = 0; frameNum < 720; frameNum++)
+    render(width, height, camera, objects, duck, lights, framebuffer, background);
+    image_write_ppm(width, height, 9999, framebuffer);
+
+
+    /*for (size_t frameNum = 0; frameNum < 720; frameNum++)
     {
         camera.theta += (0.5 / 360.) * 2 * M_PI;
-        render(width, height, camera, spheres, duck, lights, framebuffer, background);
-        image_write_ppm(width, height, frameNum, framebuffer);
-    }
+        
+    }*/
     return 0;
 }
 

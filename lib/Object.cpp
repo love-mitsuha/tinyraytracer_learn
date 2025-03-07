@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include "Object.h"
+
 //返回是否相交 同时修改最近的交点距离
 bool Sphere::ray_intersect(const Vec3f& origin, const Vec3f& direction, float &distance)
 {
@@ -34,3 +35,34 @@ bool Plane::ray_intersect(const Vec3f& origin, const Vec3f& direction, float &di
 	return false;
 }
 
+Object::Object(const Vec3f& center, const Material& material) :center(center), material(material) {}
+Object::Object() :center(Vec3f()), material(Material()) {}
+Object::~Object(){}
+
+Sphere::Sphere() :Object(), radius(0.f) {}
+Sphere::Sphere(const Vec3f& c, float r, const Material& m) :Object(c, m), radius(r) {}
+Sphere::~Sphere(){}
+
+Plane::Plane() :Object(), width(0.), height(0.),extra_material(Material()){}
+Plane::~Plane() {};
+Plane::Plane(const Vec3f& center, const float width, const float height, const Material& material,const Material& extra_material):
+	Object(center, material), width(width), height(height),extra_material(extra_material) {}
+Plane::Plane(const Vec3f& center, const float width, const float height) :
+	Object(center,Material()), width(width), height(height) { }
+
+void Sphere::intersect_effective(const Object& object, const Vec3f& origin, const Vec3f& direction, float dist, float& min_dist, Vec3f& hit, Vec3f& normal, Material& material)
+{
+	min_dist = dist;
+	hit = origin + direction * dist;
+	normal = (hit - object.center).normalize();
+	material = object.material;
+}
+
+void Plane::intersect_effective(const Object& object, const Vec3f& origin, const Vec3f& direction, float dist, float& min_dist,
+		Vec3f& hit, Vec3f& normal, Material& material)
+{
+	min_dist = dist;
+	hit = origin + direction * dist;
+	normal = Vec3f(0., 1., 0.);
+	material = (int(0.5 * hit.x + 1000) + int(0.5 * hit.z)) & 1 ? object.material : extra_material;
+}

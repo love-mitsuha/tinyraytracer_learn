@@ -7,6 +7,10 @@ Background::Background(char* filename) :filename(filename)
 	data = stbi_load(filename, &width, &height, &channels, 0);
 }
 
+Background::~Background()
+{
+}
+
 
 Vec3f Background::get_color(int x, int y)
 {

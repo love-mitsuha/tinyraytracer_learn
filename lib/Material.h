@@ -3,9 +3,10 @@
 class Material
 {
 public:
-	Material(){}
+
+	Material() :diffuse_color(Vec3f()), albedo(Vec4f()), specular_cofficient(0.), refractive_cofficient(0.) {}
 	~Material(){}
-	Material(Vec3f diffuse_color):diffuse_color(diffuse_color){}
+	Material(Vec3f diffuse_color) :diffuse_color(diffuse_color), albedo(Vec4f()), specular_cofficient(0.), refractive_cofficient(0.) {}
 	Material(const Vec3f& diffuse_color, const Vec4f& albedo, float specular_cofficient,float refractive_cofficient):
 			diffuse_color(diffuse_color),albedo(albedo),specular_cofficient(specular_cofficient), 
 			refractive_cofficient(refractive_cofficient){}
