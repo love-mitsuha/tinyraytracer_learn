@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "D:\\tinyraytracer_learn\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\tinyraytracer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Image.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\raytracing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\raytracing.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\raytracing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{592821BF-4D6D-37DF-8E84-0FED493BEBD3}|tinyraytracer.vcxproj|D:\\tinyraytracer_learn\\lib\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,119 +45,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Image.h",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Image.h",
+              "RelativeDocumentMoniker": "..\\lib\\Image.h",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Image.h",
+              "RelativeToolTip": "..\\lib\\Image.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-08T06:45:08.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Image.cpp",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Image.cpp",
+              "RelativeDocumentMoniker": "..\\lib\\Image.cpp",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Image.cpp",
+              "RelativeToolTip": "..\\lib\\Image.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-08T06:34:28.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Object.h",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Object.h",
+              "RelativeDocumentMoniker": "..\\lib\\Object.h",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Object.h",
+              "RelativeToolTip": "..\\lib\\Object.h",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvy0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-08T06:06:27.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Object.cpp",
               "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Object.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Object.cpp",
               "ToolTip": "D:\\tinyraytracer_learn\\lib\\Object.cpp",
               "RelativeToolTip": "..\\lib\\Object.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-07T13:24:26.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T13:24:26.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "raytracing.cpp",
               "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\raytracing.cpp",
               "RelativeDocumentMoniker": "..\\lib\\raytracing.cpp",
               "ToolTip": "D:\\tinyraytracer_learn\\lib\\raytracing.cpp",
               "RelativeToolTip": "..\\lib\\raytracing.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-07T13:07:10.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T13:07:10.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "raytracing.h",
               "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\raytracing.h",
               "RelativeDocumentMoniker": "..\\lib\\raytracing.h",
               "ToolTip": "D:\\tinyraytracer_learn\\lib\\raytracing.h",
               "RelativeToolTip": "..\\lib\\raytracing.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-07T13:07:13.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T13:07:13.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "model.cpp",
-              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\model.cpp",
-              "RelativeDocumentMoniker": "..\\lib\\model.cpp",
-              "ToolTip": "D:\\tinyraytracer_learn\\lib\\model.cpp",
-              "RelativeToolTip": "..\\lib\\model.cpp",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwEYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-07T13:01:01.29Z",
+              "DocumentIndex": 2,
+              "Title": "Camera.h",
+              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Camera.h",
+              "RelativeDocumentMoniker": "..\\lib\\Camera.h",
+              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Camera.h",
+              "RelativeToolTip": "..\\lib\\Camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-08T05:53:08.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "model.h",
-              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\model.h",
-              "RelativeDocumentMoniker": "..\\lib\\model.h",
-              "ToolTip": "D:\\tinyraytracer_learn\\lib\\model.h",
-              "RelativeToolTip": "..\\lib\\model.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-07T13:01:00.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Camera.cpp",
               "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Camera.cpp",
               "RelativeDocumentMoniker": "..\\lib\\Camera.cpp",
               "ToolTip": "D:\\tinyraytracer_learn\\lib\\Camera.cpp",
               "RelativeToolTip": "..\\lib\\Camera.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-07T12:48:32.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Object.h",
-              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Object.h",
-              "RelativeDocumentMoniker": "..\\lib\\Object.h",
-              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Object.h",
-              "RelativeToolTip": "..\\lib\\Object.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-07T11:11:57.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "tinyraytracer.cpp",
               "DocumentMoniker": "D:\\tinyraytracer_learn\\tinyraytracer.cpp",
               "RelativeDocumentMoniker": "..\\tinyraytracer.cpp",
               "ToolTip": "D:\\tinyraytracer_learn\\tinyraytracer.cpp",
               "RelativeToolTip": "..\\tinyraytracer.cpp",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAUwLAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-21T06:50:36.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Camera.h",
-              "DocumentMoniker": "D:\\tinyraytracer_learn\\lib\\Camera.h",
-              "RelativeDocumentMoniker": "..\\lib\\Camera.h",
-              "ToolTip": "D:\\tinyraytracer_learn\\lib\\Camera.h",
-              "RelativeToolTip": "..\\lib\\Camera.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-07T12:44:37.729Z",
               "EditorCaption": ""
             }
           ]

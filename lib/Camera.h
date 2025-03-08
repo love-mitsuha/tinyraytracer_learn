@@ -6,7 +6,8 @@
 #include "model.h"
 #include "Light.h"
 #include "Background.h"
-
+#include "raytracing.h"
+#include "Image.h"
 class Camera
 {
 public:
@@ -15,8 +16,15 @@ public:
 
 	void set_position();
 	void set_direction();
-	friend void render(int width, int height, Camera& camera, std::vector<std::unique_ptr<Object>>& spheres, Model& model,
-		std::vector<Light>& lights, std::vector<Vec3f>& framebuffer, Background& background);
+
+	Vec3f cast_ray(const Vec3f& origin, const Vec3f& direction, std::vector<std::unique_ptr<Object>>& objects,
+		std::vector<std::unique_ptr<Model>>& models,
+		std::vector<Light>& lights, Background& background, size_t depth = 0);
+	friend void Image::render(Camera& camera, std::vector<std::unique_ptr<Object>>& spheres,
+		std::vector<std::unique_ptr<Model>>& models, std::vector<Light>& lights, Background& background);
+
+	
+
 
 private:
 	Vec3f world_up = Vec3f(0.f, 1.f, 0.f);

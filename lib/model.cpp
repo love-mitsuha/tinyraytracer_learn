@@ -5,7 +5,7 @@
 #include "model.h"
 
 // fills verts and faces arrays, supposes .obj file to have "f " entries without slashes
-Model::Model(const char *filename) : verts(), faces() {
+Model::Model(const char* filename, const Material& material) : verts(), faces(), material(material) {
     std::ifstream in;
     in.open (filename, std::ifstream::in);
     if (in.fail()) {

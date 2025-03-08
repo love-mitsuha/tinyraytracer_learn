@@ -42,14 +42,6 @@ Object::~Object(){}
 Sphere::Sphere() :Object(), radius(0.f) {}
 Sphere::Sphere(const Vec3f& c, float r, const Material& m) :Object(c, m), radius(r) {}
 Sphere::~Sphere(){}
-
-Plane::Plane() :Object(), width(0.), height(0.),extra_material(Material()){}
-Plane::~Plane() {};
-Plane::Plane(const Vec3f& center, const float width, const float height, const Material& material,const Material& extra_material):
-	Object(center, material), width(width), height(height),extra_material(extra_material) {}
-Plane::Plane(const Vec3f& center, const float width, const float height) :
-	Object(center,Material()), width(width), height(height) { }
-
 void Sphere::intersect_effective(const Object& object, const Vec3f& origin, const Vec3f& direction, float dist, float& min_dist, Vec3f& hit, Vec3f& normal, Material& material)
 {
 	min_dist = dist;
@@ -58,6 +50,13 @@ void Sphere::intersect_effective(const Object& object, const Vec3f& origin, cons
 	material = object.material;
 }
 
+
+Plane::Plane() :Object(), width(0.), height(0.),extra_material(Material()){}
+Plane::~Plane() {};
+Plane::Plane(const Vec3f& center, const float width, const float height, const Material& material,const Material& extra_material):
+	Object(center, material), width(width), height(height),extra_material(extra_material) {}
+Plane::Plane(const Vec3f& center, const float width, const float height) :
+	Object(center,Material()), width(width), height(height) { }
 void Plane::intersect_effective(const Object& object, const Vec3f& origin, const Vec3f& direction, float dist, float& min_dist,
 		Vec3f& hit, Vec3f& normal, Material& material)
 {
